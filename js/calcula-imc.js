@@ -43,7 +43,3 @@ function calculaImc(peso, altura) {
     imc = peso / (altura * altura);
     return imc.toFixed(2);
 }
-
-titulo.addEventListener("click", function() {
-    console.log("fui clicado");
-});
